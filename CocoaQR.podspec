@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CocoaQR'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of CocoaQR.'
+  s.version          = '0.0.1'
+  s.summary          = 'This is a qr cocoapods test project'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,18 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Add long description of the pod hereAdd long description of the pod hereAdd long description of the pod hereAdd long description of the pod hereAdd long description of the pod hereAdd long description of the pod hereAdd long description of the pod hereAdd long description of the pod hereAdd long description of the pod hereAdd long description of the pod hereAdd long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/asep agus/CocoaQR'
+  s.homepage         = 'https://github.com/asep10001/cocoa'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'asep agus' => 'out1441@astrapay.com' }
-  s.source           = { :git => 'https://github.com/asep agus/CocoaQR.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/asep10001/cocoa.git', :tag => s.version.to_s }
+  s.swift_version    = '4.0'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'CocoaQR/Classes/**/*'
   
